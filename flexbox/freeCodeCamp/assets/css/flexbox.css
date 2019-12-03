@@ -1,13 +1,9 @@
-/* align items */
+/* flex direction column */
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   height: 100%;
-  align-items: center;
-}
-.logout {
-    align-self: flex-start;
-}
-.home {
-    align-self: flex-end;
+  align-items: flex-end;
 }
