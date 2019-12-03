@@ -1,14 +1,27 @@
-/* order */
+/* Bonus - Responsive Navbar */
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
 }
-.item1 {
-  order: 1;
+.search {
+    flex: 1;
 }
-.item2 {
-  order: 0;
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > li {
+        flex: 1 1 50%;
+    }
+    .search > input {
+        text-align: center;
+    }
 }
-.item3 {
-  order: -1;
+@media all and (max-width: 400px) {
+        .container > li {
+        flex: 1 1 100%;
+    }
+    .search {
+        order: 1;
+    }
 }
