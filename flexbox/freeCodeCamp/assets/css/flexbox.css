@@ -1,6 +1,9 @@
-/* justify content */
+/* positioning items */
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+.home {
+    margin-right: auto;
 }
