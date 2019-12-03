@@ -5,6 +5,8 @@
     color: #ffeead;
 }
 html, body {
+    box-sizing: border-box;
+    height: 100%;
     background-color: #ffeead;
     margin: 10px;
 }
