@@ -1,9 +1,8 @@
-/* positioning items */
+/* the flex property */
 .container {
-    border: 5px solid #ffcc5c;
-    display: flex;
-    justify-content: flex-end;
+  border: 5px solid #ffcc5c;
+  display: flex;
 }
-.home {
-    margin-right: auto;
+.home, .logout {
+    flex: 1;
 }
