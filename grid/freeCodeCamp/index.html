@@ -7,15 +7,22 @@
     <title>wryan | grid (freeCodeCamp)</title>
     <link rel="stylesheet" href="/grid/freeCodeCamp/assets/css/index.css">
 </head>
+<style>
+.container {
+    display: grid;
+    grid-template-columns: auto 100px;
+    grid-template-rows: 10vh 60vh 10vh;
+    grid-gap: 3px;
+}
+</style>
 <body>
-    <h1>Why learn CSS Grid layout?</h1>
-    <ul class="list">
-        <li>EASIER TO CREATE TWO DIMENTIONAL LAYOUTS</li>
-        <li>SIMPLER MARKUP</li>
-        <li>FLEXIBLE</li>
-        <li>SKIP FRAMEWORKS</li>
-        <li>BROWSER SUPPORT</li>
-        <li><a href="examples.html">SEE EAMPLES</a></li>
-    </ul>
+<div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
 </body>
 </html>

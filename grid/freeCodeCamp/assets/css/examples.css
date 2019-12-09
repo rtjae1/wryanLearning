@@ -9,10 +9,10 @@
 .menu {
     grid-column: span 4;
 }
-.contact {
+.content {
     grid-column: span 8;
 }
-.footer {
+.footer { 
     grid-column: span 12;
 }
 @media screen and (max-width: 480px) {
